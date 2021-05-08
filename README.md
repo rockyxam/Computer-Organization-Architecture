@@ -1,5 +1,5 @@
 # Computer-Organization-Architecture
 
-# Integer IO Upto 16bit
+# Rock
 
 # Ravshan Khamidov
