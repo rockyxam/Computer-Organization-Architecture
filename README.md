@@ -1,5 +1,5 @@
 # Computer-Organization-Architecture
 
-# segment-counter
+# Integer IO Upto 16bit
 
 # Ravshan Khamidov
