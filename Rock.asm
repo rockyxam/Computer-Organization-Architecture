@@ -1,4 +1,3 @@
-;UVa 11520 - Fill the Square
 
 ORG 100h
 
