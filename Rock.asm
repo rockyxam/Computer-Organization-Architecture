@@ -18,7 +18,7 @@ ORG 100h
        SUB AL,48 
        MOV tc,AL
        
-       INT 21h             ;for 'Enter'
+       INT 21h             
        CALL endl
        
        MOV CL,0
@@ -29,13 +29,13 @@ ORG 100h
        INT 21h
        MOV x,AL
        SUB AL,48
-       MOV n,AL             ;input n
+       MOV n,AL             
        
        MOV CH,AL
        
        MOV BL,CH
        MOV SI,2
-       INT 21h              ;for 'Enter'
+       INT 21h              
        CALL endl
        loop1:
        loop2:
@@ -46,7 +46,7 @@ ORG 100h
        INC SI
        CMP CH,0
        JNE loop2
-       INT 21h               ;for 'Enter'
+       INT 21h               
        CALL endl
        MOV CH,n
        SUB BL,1
@@ -54,7 +54,7 @@ ORG 100h
        JNE loop1      
        
        processing:
-       CALL casep            ;case print
+       CALL casep            
        MOV AH,2
        MOV tmp,CL
        ADD tmp,1
